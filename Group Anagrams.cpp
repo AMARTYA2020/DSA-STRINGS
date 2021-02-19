@@ -10,7 +10,7 @@ vector<vector<string>> groupanagram(vector<string>& str)
         sort(str[i].begin(),str[i].end());
         mp[str[i]].push_back(temp);
     }
-    vector<string>v;
+    vector<vector<string>>v;
     for(auto i:mp){
         v.push_back(i.second);
     }
