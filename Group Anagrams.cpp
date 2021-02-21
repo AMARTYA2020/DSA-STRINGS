@@ -8,7 +8,7 @@ vector<vector<string>> groupanagram(vector<string>& str)
     for(int i=0;i<n;i++){
         string temp=str[i];
         sort(str[i].begin(),str[i].end());
-        mp[str[i]].push_back(temp);
+        mp[str[i]].push_back(temp);    // SIMILAR TO THAT OF CHAINING IN OPEN HASHING
     }
     vector<vector<string>>v;
     for(auto i:mp){
