@@ -1,8 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// first unique character or 1st occurence of non-repeating characters:
 int firstUniqueChar(string s)
 {
+    //using linkedhashmap 
     int hash[26]={0};
     int n=s.length();
     for(int i=0;i<n;i++){
