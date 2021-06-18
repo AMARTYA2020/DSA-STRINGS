@@ -1,2 +1,2 @@
 # DSA-STRINGS
-Leetcode and GFG so
+Leetcode and GFG some
