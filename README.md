@@ -1,2 +1,2 @@
 # DSA-STRINGS
-Leetcode and GFG some import
+Leetcode and GFG some important questions
